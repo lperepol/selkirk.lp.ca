@@ -1,0 +1,12 @@
+{#
+/**
+ * @file
+ * Team+'s theme implementation to display a Album node.
+ */
+#}
+
+{% extends "node.html.twig" %}
+{% block content %}
+  {{ attach_library('teamplus/node-album') }}
+  {{ content }}
+{% endblock %}
